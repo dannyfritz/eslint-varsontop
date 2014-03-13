@@ -5,6 +5,8 @@ vars-on-top
 
 For information on how to use this custom rule, please refer to [Working with Rules](http://eslint.org/docs/developer-guide/working-with-rules.html).
 
+[npm package](https://www.npmjs.org/package/eslint-varsontop) can be installed with `npm install eslint-varsontop`.
+
 # var must be defined at the top of your function scope.
 
 The `vars-on-top` rule generates warnings when variable declarations are not used serially at the top of a function scope.
