@@ -20,7 +20,7 @@ module.exports = function (context) {
     function checkFunctionForVarsOnTop (node) {
         var statements;
         statements = pruneStatements(node.body.body);
-        if (isVarsOnTop(statements, node) === false) {
+        if (areVarsOnTop(statements, node) === false) {
             report(node);
         }
     }
@@ -87,7 +87,7 @@ module.exports = function (context) {
         }
     }
 
-    function isVarsOnTop (statements) {
+    function areVarsOnTop (statements) {
         var lastVariableDeclaration;
         var numberOfVariableDeclarations;
         lastVariableDeclaration = _.lastIndexOf(statements, 'VariableDeclaration');
