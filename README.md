@@ -1,7 +1,7 @@
 vars-on-top
 ================
 
-ESLint custom rule to enforce var declarations are only at the top of functions.
+[ESLint](http://eslint.org/) custom rule to enforce var declarations are only at the top of functions.
 
 For information on how to use this custom rule, please refer to [Working with Rules](http://eslint.org/docs/developer-guide/working-with-rules.html).
 
