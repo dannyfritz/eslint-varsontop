@@ -1,0 +1,18 @@
+{
+  "name": "eslint-varsontop",
+  "version": "0.0.1",
+  "description": "ESLint custom rule to enforce var declarations are only at the top of a function.",
+  "main": "vars-on-top.js",
+  "scripts": {
+    "test": "mocha tests/test-varsontop.js"
+  },
+  "author": "Danny Fritz <dannyfritz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^0.4.2",
+    "eslint-tester": "0.0.5"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
