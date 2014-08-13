@@ -9,7 +9,7 @@
   "description": "ESLint custom rule to enforce var declarations are only at the top of a function.",
   "main": "vars-on-top.js",
   "scripts": {
-    "test": "mocha tests/test-varsontop.js"
+    "test": "mocha tests/vars-on-top.js"
   },
   "author": "Danny Fritz <dannyfritz@gmail.com>",
   "license": "MIT",
