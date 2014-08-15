@@ -16,8 +16,5 @@
   "devDependencies": {
     "eslint": "^0.7.4",
     "eslint-tester": "^0.1.0"
-  },
-  "dependencies": {
-    "lodash": "^2.4.1"
   }
 }
