@@ -1,9 +1,9 @@
 {
   "name": "eslint-varsontop",
   "homepage": "https://github.com/dannyfritz/eslint-varsontop",
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/dannyfritz/eslint-varsontop.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dannyfritz/eslint-varsontop.git"
   },
   "version": "0.0.2",
   "description": "ESLint custom rule to enforce var declarations are only at the top of a function.",
@@ -14,9 +14,8 @@
   "author": "Danny Fritz <dannyfritz@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^0.4.2",
-    "eslint-tester": "0.0.5",
-    "mocha": "^1.17.1"
+    "eslint": "^0.7.4",
+    "eslint-tester": "^0.1.0"
   },
   "dependencies": {
     "lodash": "^2.4.1"
