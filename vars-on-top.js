@@ -27,7 +27,7 @@ module.exports = function (context) {
         return false;
     }
 
-    function pruneStatements (statements) {console.log(statements);
+    function pruneStatements (statements) {
         var prunedStatements;
         prunedStatements = statements.map(function (statement) {
             return statement.type;
