@@ -4,8 +4,6 @@
  */
 "use strict";
 
-var _ = require("lodash");
-
 //------------------------------------------------------------------------------
 // Rule Definition
 //------------------------------------------------------------------------------
@@ -22,7 +20,7 @@ module.exports = function (context) {
 
     function hasVars (statements) {
         var variableDeclarationIndex;
-        variableDeclarationIndex = _.indexOf(statements, "VariableDeclaration");
+        variableDeclarationIndex = statements.indexOf("VariableDeclaration");
         if (variableDeclarationIndex >= 0) {
             return true;
         }
@@ -31,7 +29,7 @@ module.exports = function (context) {
 
     function pruneStatements (statements) {console.log(statements);
         var prunedStatements;
-        prunedStatements = _.map(statements, function (statement) {
+        prunedStatements = statements.map(function (statement) {
             return statement.type;
         });
         return prunedStatements;
@@ -40,9 +38,8 @@ module.exports = function (context) {
     function areVarsOnTop (statements) {
         var lastVariableDeclaration;
         var numberOfVariableDeclarations;
-        lastVariableDeclaration = _.lastIndexOf(statements, "VariableDeclaration");
-        numberOfVariableDeclarations = _.reduce(statements,
-            function (sum, statement) {
+        lastVariableDeclaration = statements.lastIndexOf("VariableDeclaration");
+        numberOfVariableDeclarations = statements.reduce(function (sum, statement) {
                 if (statement === "VariableDeclaration") {
                     return sum + 1;
                 }
