@@ -1,3 +1,10 @@
+THIS IS NOW AN OFFICIAL RULE OF ESLINT AND IS NO LONGER MAINTAINED HERE
+===============
+
+**_Deprecated!_** [`vars-on-top`](http://eslint.org/docs/rules/vars-on-top.html) is now included in [eslint](http://eslint.org/). And as such, this repo will no longer be maintained.
+
+---
+
 vars-on-top
 ================
 
